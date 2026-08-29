@@ -1,0 +1,63 @@
+name: Bug Report
+description: Report something that is broken or not working as expected
+labels: [bug]
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug in Librava!
+        Please fill out the form below so we can reproduce and fix the issue faster.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug, including what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How do you trigger this bug? Please walk us through it step by step.
+      placeholder: |
+        1. Open '...'
+        2. Tap on '...'
+        3. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform did this happen on?
+      options:
+        - Android
+        - iOS
+        - macOS
+        - Windows
+        - Linux
+        - Web
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Shown in Account → About (pre-filled if you filed this from the app).
+      placeholder: "Example: 0.1.0 (Android)"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Optional. Attach screenshots or paste relevant app logs (Account → Diagnostics → App Logs).
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have searched existing issues and found no duplicates.
+          required: true

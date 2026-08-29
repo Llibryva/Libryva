@@ -1,0 +1,36 @@
+name: Feature Request
+description: Suggest an idea or improvement for Librava
+labels: [enhancement]
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Librava better!
+        Tell us about the problem you're trying to solve and how you'd like it to work.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or motivation
+      description: What are you trying to do, and what is missing or frustrating today?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like to happen? Any specific behavior or UI in mind?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional. Any alternative solutions or workarounds you have tried.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have searched existing issues and found no duplicates.
+          required: true
