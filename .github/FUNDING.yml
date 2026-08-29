@@ -1,0 +1,10 @@
+# Funding platform configuration — shown in the repo's "Sponsor this project" button.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+github: [SOUMITRO-SAHA]
+patreon: SOUMITROSAHA
+
+# Future platforms (uncomment and fill in when live):
+# ko_fi: # Replace with a single Ko-fi username
+# buy_me_a_coffee: # Replace with a single Buy Me a Coffee username
+# custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']

@@ -51,8 +51,10 @@ General questions, ideas, and show-and-tell belong in [Discussions](../../discus
 
 Librava is built independently, in our spare time. Sponsoring helps us dedicate more time and resources to improving the application — every contribution matters!
 
-- **GitHub Sponsors** — _link coming soon_
-- **Patreon** — _link coming soon_
+- 💖 [**GitHub Sponsors**](https://github.com/sponsors/SOUMITRO-SAHA)
+- 🎨 [**Patreon**](https://www.patreon.com/cw/SOUMITROSAHA)
+
+Or use the **Sponsor this project** button at the top of this repository.
 
 ## 📜 License
 
