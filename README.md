@@ -1,4 +1,4 @@
-# Librava
+# Libryva
 
 <p align="center">
   <strong>A modern cross-platform audiobook player.</strong><br/>
@@ -6,13 +6,13 @@
 </p>
 
 > [!IMPORTANT]
-> Librava is proprietary software. This repository is for **bug reports, feature requests, and community feedback only** — no source code is hosted here. The full license terms are available in the app.
+> Libryva is proprietary software. This repository is for **bug reports, feature requests, and community feedback only** — no source code is hosted here. The full license terms are available in the app.
 
 ---
 
 ## 📖 About
 
-Librava is an independently developed audiobook player that lets you bring your own library and enjoy it on all your devices:
+Libryva is an independently developed audiobook player that lets you bring your own library and enjoy it on all your devices:
 
 - 🎧 **Bring your own audiobooks** — import your files and start listening in seconds
 - ▶️ **Seamless playback** — resume exactly where you left off, with background audio support
@@ -33,7 +33,7 @@ Found something broken? Please [open a bug report](../../issues/new?template=bug
 
 ## 💡 Request a Feature
 
-Have an idea that would make Librava better? [Open a feature request](../../issues/new?template=feature_request.md) and tell us:
+Have an idea that would make Libryva better? [Open a feature request](../../issues/new?template=feature_request.md) and tell us:
 
 1. The problem you're trying to solve
 2. Your proposed solution
@@ -49,7 +49,7 @@ General questions, ideas, and show-and-tell belong in [Discussions](../../discus
 
 ## ❤️ Support the Project
 
-Librava is built independently, in our spare time. Sponsoring helps us dedicate more time and resources to improving the application — every contribution matters!
+Libryva is built independently, in our spare time. Sponsoring helps us dedicate more time and resources to improving the application — every contribution matters!
 
 - 💖 [**GitHub Sponsors**](https://github.com/sponsors/SOUMITRO-SAHA)
 - 🎨 [**Patreon**](https://www.patreon.com/cw/SOUMITROSAHA)
@@ -58,10 +58,10 @@ Or use the **Sponsor this project** button at the top of this repository.
 
 ## 📜 License
 
-Librava is proprietary software. All rights reserved. See the license terms inside the app for details. This repository contains no source code and is provided solely as a public channel for issue tracking and community feedback.
+Libryva is proprietary software. All rights reserved. See the license terms inside the app for details. This repository contains no source code and is provided solely as a public channel for issue tracking and community feedback.
 
 ---
 
 <p align="center">
-  Made with ❤️ by the Librava team
+  Made with ❤️ by the Libryva team
 </p>

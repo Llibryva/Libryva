@@ -1,12 +1,12 @@
 name: Feature Request
-description: Suggest an idea or improvement for Librava
+description: Suggest an idea or improvement for Libryva
 labels: [enhancement]
 title: "[Feature]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping make Librava better!
+        Thanks for helping make Libryva better!
         Tell us about the problem you're trying to solve and how you'd like it to work.
   - type: textarea
     id: problem
