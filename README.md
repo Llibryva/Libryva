@@ -1,9 +1,14 @@
-# Libryva
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo_large.png">
+    <img src="assets/logo_large.png" alt="Libryva" width="240">
+  </picture>
 
-<p align="center">
-  <strong>A modern cross-platform audiobook player.</strong><br/>
-  Import your audiobooks, pick up where you left off, and listen anywhere.
-</p>
+  <p>
+    <strong>A modern cross-platform audiobook player.</strong><br/>
+    Import your audiobooks, pick up where you left off, and listen anywhere.
+  </p>
+</div>
 
 > [!IMPORTANT]
 > Libryva is proprietary software. This repository is for **bug reports, feature requests, and community feedback only** — no source code is hosted here. The full license terms are available in the app.
