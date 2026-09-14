@@ -5,30 +5,58 @@
   </picture>
 
   <p>
-    <strong>A modern cross-platform audiobook player.</strong><br/>
-    Import your audiobooks, pick up where you left off, and listen anywhere.
+    <strong>One app for everything you read.</strong><br/>
+    Clip the web, organise bookmarks and articles, read ebooks, and listen to audiobooks — with your place saved.
+  </p>
+
+  <p>
+    <a href="https://libryva.com">Website</a> ·
+    <a href="https://libryva.com/blog">Build log</a> ·
+    <a href="https://libryva.com/#waitlist">Join the waitlist</a>
   </p>
 </div>
 
 > [!IMPORTANT]
 > Libryva is proprietary software. This repository is for **bug reports, feature requests, and community feedback only** — no source code is hosted here. The full license terms are available in the app.
 
----
+> [!NOTE]
+> Libryva is in active development, with a public launch targeted around the new year. [Join the waitlist](https://libryva.com/#waitlist) to get one email when builds go out — no spam, only launch updates.
 
 ## 📖 About
 
-Libryva is an independently developed audiobook player that lets you bring your own library and enjoy it on all your devices:
+Libryva keeps your clipped articles, bookmarks, ebooks, and audiobooks in one calm, local-first library — so every read and listen resumes exactly where you stopped.
 
-- 🎧 **Bring your own audiobooks** — import your files and start listening in seconds
-- ▶️ **Seamless playback** — resume exactly where you left off, with background audio support
-- 🔖 **Bookmarks & chapters** — jump to any moment in your book
-- 📚 **Library & playlists** — organize your collection your way
-- 🌙 **Light & dark themes** — a beautiful UI that adapts to you
-- 💻 **Cross-platform** — Android, iOS, macOS, Windows, Linux, and Web
+- 🔖 **Save anything from the web** — clip articles, pages, and bookmarks straight from your browser into one organised library. Nothing gets lost in tabs.
+- 📚 **One library for every format** — ebooks, audiobooks, saved articles, chapters, bookmarks, and progress live in one place instead of scattered apps.
+- 🎧 **Exact audio resume** — pause an audiobook at a timestamp and come back later; your book, position, speed, queue, chapter, and progress are stored so listening continues from the right second.
+- ⏱️ **Controls for long sessions** — jump by chapter, save position-based bookmarks with notes, adjust speed, and fall asleep without losing your place.
+- 🌙 **Local-first by default** — your library, history, preferences, and metadata live on your device first. Cloud and sync features will be opt-in additions, not a requirement to open your books.
+- 💻 **Built for every platform** — iOS, Android, macOS, Windows, Linux, and the web, from one Flutter codebase, with native-feeling layouts for phones, tablets, and desktops.
+
+## 🗺️ Roadmap
+
+The first release track is a dependable place to save, read, and listen first. Smarter cloud features come after the basics feel trustworthy.
+
+| Stage                    | What's coming                                                                                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Core — in progress**   | Reliable audiobook foundation: imports, saved playback position, progress history, chapters, bookmarks, sleep timer, playlists, listening statistics |
+| **Next**                 | Ebook reader and ebook–audiobook alignment, so reading and listening progress reinforce each other                                                   |
+| **Future**               | Optional cloud sync, backup, and restore                                                                                                             |
+| **Future**               | AI-assisted reading — summarize, explain, search, and navigate while keeping the experience calm and under your control                              |
+| **After 10K+ downloads** | News reading, curated queues, and automated curation                                                                                                 |
+
+## 🌐 Website & Links
+
+- 🏠 **Website** — [libryva.com](https://libryva.com)
+- 📰 **Build log** — [libryva.com/blog](https://libryva.com/blog) · [RSS](https://libryva.com/rss.xml)
+- 📬 **Waitlist** — [libryva.com/#waitlist](https://libryva.com/#waitlist)
+- 📜 **Terms & Conditions** — [libryva.com/legal/terms](https://libryva.com/legal/terms)
+- 🔐 **Privacy Policy** — [libryva.com/legal/privacy](https://libryva.com/legal/privacy)
+- ✉️ **Contact** — [hello@libryva.com](mailto:hello@libryva.com)
 
 ## 🐛 Report a Bug
 
-Found something broken? Please [open a bug report](../../issues/new?template=bug_report.md) and include:
+Found something broken? Please [open a bug report](../../issues/new?template=bug_report.yml) and include:
 
 1. Your platform and OS version (e.g. Android 15, macOS 15)
 2. App version (found in **Account → About**)
@@ -38,7 +66,7 @@ Found something broken? Please [open a bug report](../../issues/new?template=bug
 
 ## 💡 Request a Feature
 
-Have an idea that would make Libryva better? [Open a feature request](../../issues/new?template=feature_request.md) and tell us:
+Have an idea that would make Libryva better? [Open a feature request](../../issues/new?template=feature_request.yml) and tell us:
 
 1. The problem you're trying to solve
 2. Your proposed solution
