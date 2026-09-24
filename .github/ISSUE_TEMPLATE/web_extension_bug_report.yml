@@ -1,0 +1,77 @@
+name: Web Extension Bug Report
+description: Report something broken in the Libryva browser extension
+labels:
+  - bug
+  - web-extension
+title: "[Web Extension] Reader issue"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the Libryva Web Extension.
+        This issue will be public. Review the page URL and screenshot, and remove passwords, tokens, private account data, and other sensitive information before submitting.
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: This report was opened from the browser extension.
+      value: Web Extension
+    validations:
+      required: true
+  - type: input
+    id: affected-page-url
+    attributes:
+      label: Affected page URL
+      description: Review this URL before submitting; query values that look sensitive are removed automatically.
+      placeholder: "https://example.com/article"
+    validations:
+      required: true
+  - type: input
+    id: extension-version
+    attributes:
+      label: Extension version
+      description: Open `chrome://extensions` or `about:addons` to verify the installed version.
+      placeholder: "Example: 0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: browser-details
+    attributes:
+      label: Browser and version
+      description: Browser user-agent details are prefilled; edit or remove them if needed.
+      placeholder: "Example: Chrome 153 on macOS"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected to happen.
+      placeholder: "Example: The embedded page shows a 403 error instead of loading."
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the steps that lead to the problem.
+      placeholder: |
+        1. Open the saved page in the Web Extension.
+        2. Describe what you clicked or changed.
+        3. See the issue.
+    validations:
+      required: true
+  - type: upload
+    id: screenshot
+    attributes:
+      label: Screenshot of the problem
+      description: Please attach a screenshot so we can see what went wrong. Redact private page or account information first.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have searched existing issues and found no duplicate.
+          required: true

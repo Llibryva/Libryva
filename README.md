@@ -64,6 +64,8 @@ Found something broken? Please [open a bug report](../../issues/new?template=bug
 4. What you expected vs. what actually happened
 5. Screenshots or screen recordings, if possible
 
+For a problem in the browser extension, use the [Web Extension bug report](../../issues/new?template=web_extension_bug_report.yml). It pre-fills the affected page URL and browser details and automatically adds the `web-extension` label. Please attach a screenshot and review the URL and image for private information before submitting; issues are public.
+
 ## 💡 Request a Feature
 
 Have an idea that would make Libryva better? [Open a feature request](../../issues/new?template=feature_request.yml) and tell us:

@@ -8,11 +8,12 @@ body:
       value: |
         Thanks for taking the time to report a bug in Libryva!
         Please fill out the form below so we can reproduce and fix the issue faster.
+        Issues are public. Remove private information from URLs, logs, and screenshots before submitting.
   - type: textarea
     id: description
     attributes:
       label: What happened?
-      description: A clear description of the bug, including what you expected to happen.
+      description: Describe what happened and what you expected instead.
     validations:
       required: true
   - type: textarea
@@ -38,22 +39,39 @@ body:
         - Windows
         - Linux
         - Web
+        - Web Extension (Chrome)
+        - Web Extension (Firefox)
     validations:
       required: true
   - type: input
     id: app-version
     attributes:
-      label: App version
-      description: Shown in Account → About (pre-filled if you filed this from the app).
-      placeholder: "Example: 0.1.0 (Android)"
+      label: App, extension, or browser version
+      description: Include the app/extension version and browser version when relevant.
+      placeholder: "Example: 0.1.0 (Chrome 153)"
     validations:
-      required: true
+      required: false
+  - type: input
+    id: page-url
+    attributes:
+      label: Affected page URL
+      description: Optional. Include the page or route where the issue happened.
+      placeholder: "https://example.com/article"
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
-      label: Logs or screenshots
-      description: Optional. Attach screenshots or paste relevant app logs (Account → Diagnostics → App Logs).
+      label: Relevant logs
+      description: Optional. Remove access tokens, account details, and other private data before sharing.
       render: shell
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Screenshot or screen recording
+      description: Attach a screenshot or recording if it helps show the problem. Review it for private content first.
+    validations:
+      required: false
   - type: checkboxes
     id: checks
     attributes:
